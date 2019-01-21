@@ -2,7 +2,7 @@
 
 The Statistics and Bioinformatics Unit (UEB) at Vall d'Hebron Research Institute (VHIR) is a support platform whose mission is to provide expert advice, services and training in bioinformatics and statistics for clinical and biomedical research.
 
-At the bioinformatics platform of UEB we work with distnct omics data and apply our knowledge to provide researchers with accurate. reliable, robust (and, if possible, quick) results.
+At the bioinformatics platform of UEB we work with distinct omics data and apply our knowledge to provide researchers with accurate. reliable, robust (and, if possible, quick) results.
 
 Many of our analyses deal with selecting some type of "feature" such as genes, proteins, microRNAs etc. which may act as a biomarkers for distinguishing, predicting or classifying distinct biological states. These analyses can be roughly separated in two parts: (1) Obtaining a list of features, which is usually done applying some type of statistical or bioinformatical methods and (2) Doing a biological interpretation of these lists using some type of *Pathway Analysis*.
 
