@@ -16,5 +16,5 @@ We will first compile a list of tools and tutorials and will continue adding exa
 
 The list of tools provided **is not intended to be exhaustive**, quite the contrary. Its main goal is helping researcher to select some good tools, preferably easy-to-use, and to guide them on how to do the analyses and how to interpret the results.
 
-In order to facilitate its use the information is presented as a wiki in this repository: 
+In order to facilitate its use the information is presented [as a wiki in this repository:] (https://github.com/uebvhir/ueb_Pathway_Analysis/wiki/UEB-Pathway-Analysis-Wiki)
 
