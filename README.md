@@ -14,7 +14,57 @@ The  term *Pathway* or *Network Analysis* denotes any analytic technique that be
 These repository is intended to grow progressively with information on *how to do pathway analysis* using open source tools.
 We will first compile a list of tools and tutorials and will continue adding examples on how to do it using the same case studies so that a comparison between the results is facilitated.
 
-The list of tools provided **is not intended to be exhaustive**, quite the contrary. Its main goal is helping researcher to select some good tools, preferably easy-to-use, and to guide them on how to do the analyses and how to interpret the results.
+## What's this site for
 
-In order to facilitate its use the information is presented [as a wiki in this repository:] (https://github.com/uebvhir/ueb_Pathway_Analysis/wiki/UEB-Pathway-Analysis-Wiki)
+This document provides guidelines and examples of the analyses that can be performed on one or more gene lists to help gain biological insight on the results of some type of omics data analysis (e.g. selection of differentially expressed genes). 
 
+Overall these analyses are known as **Pathway Analysis**. Although one could discuss the exact meaning of the term we will keep it and from now on it will be used to describe any analysis based on a list of genes or other molecular features obtained from an omics data analysis.
+
+There is a huge variety of methods and tools for doing pathway analysis. [Khatri (2012)](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002375) is still a good reference to provide a good comparative overview. We refer the reader to this and similar papers and go straight to the list of recommended tools.
+
+We start providing three recommendations. As it will be seen this does not mean three programs but three approaches that can be undertaken to do a basic pathway analysis from a list of features. As the page progresses we expect to add more examples, more tools, and more explanations.
+
+# Tools and methods for Pathway Analysis
+
+The three approaches described below differ in sophistication and in difficulty. 
+1. The first and simplest one only requires providing a list of genes and going through some web pages that do some variation of *enrichment analysis*. 
+2. A second one is a protocol described in a recent Nature paper that requires using a variety of programs to be completed. While "intended for biologists" it requires at least some time to learn what each tool does, how to set the parameters and how to interpret the results.
+3. The last one relies on Bioconductor and R, and as such, it assumes requires some familiarity with the use of R for bioinformatic analysis.
+
+# Some approaches for pathway analysis 
+
+This section does not discuss specific tools or methods for pathway analyses. Instead, it mentions three different approaches that one researcher can adopt when she is faced with the mission of *"doing a pathway analysis of my gene list"*
+
+1. The simplest way to do pathway analysis consists of using one of the tools embedded in popular pathway databases such as [The Gene Ontology](www.geneontology.org) and [Reactome](www.reactome.org). Each website contains some tool to do pathway analysis.
+  - The Gene Ontology ([www.geneontology.org](www.geneontology.org)) provides a form for doing *Gene Enrichment Analysis* in its front page. Just paste a list of identifiers and press "launch". Simple help is provided by pressing a "?" symbol.
+  - The Reactome web site ([www.reactome.org]()) has an option to do data analysis ("Analyze Data") which allow doing a step by step enrichment analysis. Besides the examples contained in the site, one can find a short online tutorial on using this tool in the EMBL web site: [Reactome: Tools for analysis of biological pathways](https://www.ebi.ac.uk/training/online/course/reactome-tools-analysis-biological-pathways).
+
+There are many other web pages or standalone programs that can be used to do pathway analysis. See some of them in the "Pathway Analysis Tools" section.
+
+2. If one wishes to do more complete or sophisticated analysis one can turn to a recently published nature protocol: [Pathway enrichment analysis and visualization of omics data using g:Profiler, GSEA, Cytoscape and EnrichmentMap](https://www.nature.com/articles/s41596-018-0103-9). This protocol shows how to use some publicly available tools for going from basic enrichment analysis to visualization of results and, what is more important, to a guided interpretation. The protocol is pay-only but a preprint is available at biorXiv: [Pathway enrichment analysis of -omics data (preprint)](https://www.biorxiv.org/content/biorxiv/early/2017/12/12/232835.full.pdf).
+
+3. Last but not least one can always use state of the art tools available from the [Bioconductor project](http://bioconductor.org). Bioconductor contains many options for doing similar or distinct analyses. In order to avoid getting lost in the myriad of options is the [Clusterprofiler package](https://www.bioconductor.org/packages/release/bioc/vignettes/clusterProfiler/inst/doc/clusterProfiler.html)
+
+# Materials to learn about pathway analysis
+
+People tend to ask more questions like *where can I find a tool to do pathway analysis?* than  *How can I learn how to do pathway analysis the right way?* 
+We are convinced that the right way to proceed is first answering the second question and next, the first one.
+
+With this aim in mind, we have compiled some materials that we have found on the web -including ours- that can provide a gentle introduction to this topic, easier to do than to define.
+
+## References
+
+There are many references on pathway analysis of omics data. Indeed one might even think that there are *too many* papers on this topic because many of the methods or tools available seem to be minor variations of pre-existing methods or tools. 
+Instead of trying to do an exhaustive list of papers we simply present a few papers which seem relevant to us. For a longer or more complete list see the references therein.
+
+* Khatri, P., Sirota, M., & Butte, A. J. (2012). Ten Years of Pathway Analysis: Current Approaches and Outstanding Challenges. PLOS Computational Biology, 8(2), e1002375. https://doi.org/10.1371/journal.pcbi.1002375
+* Emmert-Streib, F., & Glazko, G. V. (2011). Pathway analysis of expression data: deciphering functional building blocks of complex diseases. PLoS Computational Biology, 7(5), e1002053. https://doi.org/10.1371/journal.pcbi.1002053
+* García-Campos, M. A., Espinal-Enríquez, J., & Hernández-Lemus, E. (2015). Pathway Analysis: State of the Art. Frontiers in Physiology, 6, 383. https://doi.org/10.3389/fphys.2015.00383
+* Reimand, J., Isserlin, R., Voisin, V., Kucera, M., Tannus-Lopes, C., Rostamianfar, A., … Bader, G. D. (2017). Pathway enrichment analysis of -omics data. BioRxiv, 232835. https://doi.org/10.1101/232835
+
+## Courses and tutorials on pathway analysis
+* [Bioinformatics Canada](www.bioinformatics.ca) teaches great bioinformatics courses on a yearly basis. Besides this, they make the materials of courses from previous years freely available on their web site. One of such courses is [Pathway and Network analysis of omics data]( https://bioinformatics.ca/workshops/pathway-and-network-analysis-of-omics-data/)  
+* [VIB Bioinformatics Core](https://www.bits.vib.be/) is another must-stop place when looking for training materials. [Here](https://wiki.bits.vib.be/index.php/Functional_annotation_and_enrichment_analysis) are some tutorials on enrichment analysis using a variety of tools.
+* A PLoS Computational Biology tutorial was presented at ISMB 2010: [Pathway Analysis of Expression Data: Deciphering Functional Building Blocks of Complex Diseases](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3102754/).
+
+* Materials from an old CNIO course on Functional Analysis (the web page is not available): http://bioinfo.cnio.es/files/training/Functional_Analysis_Course/ 
