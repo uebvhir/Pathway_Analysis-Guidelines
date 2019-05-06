@@ -1,4 +1,4 @@
-# ueb-Pathway Analysis
+# UEV-Pathway Analysis Guidelines
 
 The Statistics and Bioinformatics Unit (UEB) at Vall d'Hebron Research Institute (VHIR) is a support platform whose mission is to provide expert advice, services and training in bioinformatics and statistics for clinical and biomedical research.
 
