@@ -60,7 +60,7 @@ With this aim in mind, we have compiled some materials that we have found on the
 * [VIB Bioinformatics Core](https://www.bits.vib.be/) is another must-stop place when looking for training materials. [Here](https://wiki.bits.vib.be/index.php/Functional_annotation_and_enrichment_analysis) are some tutorials on enrichment analysis using a variety of tools.
 * A PLoS Computational Biology tutorial was presented at ISMB 2010: [Pathway Analysis of Expression Data: Deciphering Functional Building Blocks of Complex Diseases](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3102754/).
 
-* Materials from an old CNIO course on Functional Analysis (the web page is not available): http://bioinfo.cnio.es/files/training/Functional_Analysis_Course/ 
+* [Materials from an old CNIO course on Functional Analysis](http://bioinfo.cnio.es/files/training/Functional_Analysis_Course/) (the web page is not available): 
 
 ## References
 
@@ -78,18 +78,18 @@ Instead of trying to do an exhaustive list of papers we simply present a few pap
 There are literally dozens, probably hundreds of Pathway Analysis Tools. The table below contains an opinionated list of a few popular tools that cover the spectra of tools types, such as commercial/non-commercial, web based/standalone/R based.
 Only one link escape from this classification: the link [https://tools4mirs.org/software/target_functional_analysis/](https://tools4mirs.org/software/target_functional_analysis/) points to a page which at its time points to functional analysis tools for microRNAs target genes.
 
-| **Tool Name**   | **URL**                                                                       | **Web interface** | **Standalone** | **R version** | **Commercial** |
-|-----------------|-------------------------------------------------------------------------------|-------------------|----------------|---------------|----------------|
-| [DAVID](https://david\.ncifcrf\.gov/)           |                                                   | yes               | no             | yes           | no             |
-| [PANTHER](http://pantherdb\.org/)         |                                                         | yes               | no             | no            | no             |
-| [WebGestalt]( http://www\.webgestalt\.org/)      |                                                  | yes               | no             | no            | no             |
-| [GSEA](http://software\.broadinstitute\.org/gsea/index\.jsp)            |                           | no                | yes            | yes           | no             |
-| [g:Profiler](https://biit\.cs\.ut\.ee/gprofiler/gost)      |                                        | yes               | no             | yes           | no             |
-| [Enrichr](https://amp\.pharm\.mssm\.edu/Enrichr/)         |                                         | yes               | no             | yes           | no             |
-| [Tools4miRs](https://tools4mirs\.org/software/target_functional_analysis/)      |                                                       | yes               | NA             | NA            | NA             |
-| [clusterprofiler](https://bioconductor\.org/packages/release/bioc/html/clusterProfiler\.html) |     | no                | no             | yes           | no             |
-| [Pathvisio](https://www\.pathvisio\.org/)       |                                                   | yes               | no             | no            | no             |
-| [GeneGo/MetaCore](https://portal\.genego\.com/) |                                                   | no                | yes            | no            | yes            |
-| [IPA](https://www\.qiagenbioinformatics\.com/products/ingenuity\-pathway\-analysis/)             |  | no                | yes            | no            | yes            |
+| **Tool Name**   | **Web interface** | **Standalone** | **R version** | **Commercial** |
+|-----------------|-------------------|----------------|---------------|----------------|
+| [DAVID](https://david\.ncifcrf\.gov/)           | yes               | no             | yes           | no             |
+| [PANTHER](http://pantherdb\.org/)         | yes               | no             | no            | no             |
+| [WebGestalt]( http://www\.webgestalt\.org/)      | yes               | no             | no            | no             |
+| [GSEA](http://software\.broadinstitute\.org/gsea/index\.jsp)            | no                | yes            | yes           | no             |
+| [g:Profiler](https://biit\.cs\.ut\.ee/gprofiler/gost)      | yes               | no             | yes           | no             |
+| [Enrichr](https://amp\.pharm\.mssm\.edu/Enrichr/)         | yes               | no             | yes           | no             |
+| [Tools4miRs](https://tools4mirs\.org/software/target_functional_analysis/)      | yes               | NA             | NA            | NA             |
+| [clusterprofiler](https://bioconductor\.org/packages/release/bioc/html/clusterProfiler\.html) | no                | no             | yes           | no             |
+| [Pathvisio](https://www\.pathvisio\.org/)       | yes               | no             | no            | no             |
+| [GeneGo/MetaCore](https://portal\.genego\.com/) | no                | yes            | no            | yes            |
+| [IPA](https://www\.qiagenbioinformatics\.com/products/ingenuity\-pathway\-analysis/)             | no                | yes            | no            | yes            |
 
 
