@@ -1,4 +1,4 @@
-# UEB-Pathway Analysis Guidelines 
+# UEB-Pathway Analysis 
 
 [The Statistics and Bioinformatics Unit (UEB)](ueb.vhir.org)  at Vall d'Hebron Research Institute (VHIR) is a support platform whose mission is providing expert advice, services and training in bioinformatics and statistics for clinical and biomedical research.
 
@@ -21,7 +21,7 @@ Overall these analyses are known as **Pathway Analysis**. Although one could dis
 
 There is a huge variety of methods and tools for doing pathway analysis. [Khatri (2012)](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002375) is still a good reference to provide a good comparative overview. We refer the reader to this and similar papers and go straight to the list of recommended tools.
 
-# Some approaches for pathway analysis 
+# Approaches to pathway analysis 
 
 Because we do not aim so much at being comprehensive as at being useful we begin considering three possible approaches that can be undertaken by a researcher when she is faced with the mission of *"doing a pathway analysis of my gene list"* 
 
@@ -40,7 +40,7 @@ The simplest way to do pathway analysis consists of using one of the tools embed
 
 There are many other web pages or standalone programs that can be used to do pathway analysis. See some of them in the "Pathway Analysis Tools" section.
 
-## Apply a pipeline (protocol) combining several tools
+## Apply a pipeline (protocol)
 
 If one wishes to do more complete or sophisticated analysis one can turn to a recently published nature protocol: [Pathway enrichment analysis and visualization of omics data using g:Profiler, GSEA, Cytoscape and EnrichmentMap](https://www.nature.com/articles/s41596-018-0103-9). This protocol shows how to use some publicly available tools for going from basic enrichment analysis to visualization of results and, what is more important, to a guided interpretation. The protocol is pay-only but a preprint is available at biorXiv: [Pathway enrichment analysis of -omics data (preprint)](https://www.biorxiv.org/content/biorxiv/early/2017/12/12/232835.full.pdf).
 
@@ -48,7 +48,7 @@ If one wishes to do more complete or sophisticated analysis one can turn to a re
 
 Last but not least one can always use state of the art tools available from the [Bioconductor project](http://bioconductor.org). Bioconductor contains many options for doing similar or distinct analyses. In order to avoid getting lost in the myriad of options a good starting point is the [Clusterprofiler package](https://www.bioconductor.org/packages/release/bioc/vignettes/clusterProfiler/inst/doc/clusterProfiler.html) which not only allows to do a variety of analysis with a homogeneous interface, but which also has an excelent documentation.
 
-# Materials to learn about pathway analysis
+# Materials about pathway analysis
 
 People tend to ask more questions like *where can I find a tool to do pathway analysis?* than  *How can I learn how to do pathway analysis the right way?* 
 We are convinced that the right way to proceed is first answering the second question and next, the first one.
@@ -65,7 +65,7 @@ Instead of trying to do an exhaustive list of papers we simply present a few pap
 * García-Campos, M. A., Espinal-Enríquez, J., & Hernández-Lemus, E. (2015). Pathway Analysis: State of the Art. Frontiers in Physiology, 6, 383. https://doi.org/10.3389/fphys.2015.00383
 * Reimand, J., Isserlin, R., Voisin, V., Kucera, M., Tannus-Lopes, C., Rostamianfar, A., … Bader, G. D. (2017). Pathway enrichment analysis of -omics data. BioRxiv, 232835. https://doi.org/10.1101/232835
 
-## Courses and tutorials on pathway analysis
+## Courses and tutorials
 * [Bioinformatics Canada](www.bioinformatics.ca) teaches great bioinformatics courses on a yearly basis. Besides this, they make the materials of courses from previous years freely available on their web site. One of such courses is [Pathway and Network analysis of omics data]( https://bioinformatics.ca/workshops/pathway-and-network-analysis-of-omics-data/)  
 * [VIB Bioinformatics Core](https://www.bits.vib.be/) is another must-stop place when looking for training materials. [Here](https://wiki.bits.vib.be/index.php/Functional_annotation_and_enrichment_analysis) are some tutorials on enrichment analysis using a variety of tools.
 * A PLoS Computational Biology tutorial was presented at ISMB 2010: [Pathway Analysis of Expression Data: Deciphering Functional Building Blocks of Complex Diseases](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3102754/).
