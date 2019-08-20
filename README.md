@@ -80,16 +80,16 @@ Only one link escape from this classification: the link [https://tools4mirs.org/
 
 | **Tool Name**   | **URL**                                                                       | **Web interface** | **Standalone** | **R version** | **Commercial** |
 |-----------------|-------------------------------------------------------------------------------|-------------------|----------------|---------------|----------------|
-| DAVID           | https://david\.ncifcrf\.gov/                                                  | yes               | no             | yes           | no             |
-| PANTHER         | http://pantherdb\.org/                                                        | yes               | no             | no            | no             |
-| WebGestalt      | http://www\.webgestalt\.org/                                                  | yes               | no             | no            | no             |
-| GSEA            | http://software\.broadinstitute\.org/gsea/index\.jsp                          | no                | yes            | yes           | no             |
-| g:Profiler      | https://biit\.cs\.ut\.ee/gprofiler/gost                                       | yes               | no             | yes           | no             |
-| Enrichr         | https://amp\.pharm\.mssm\.edu/Enrichr/                                        | yes               | no             | yes           | no             |
-| Tools4miRs      | https://tools4mirs\.org/software/target_functional_analysis/                                                      | yes               | NA             | NA            | NA             |
-| clusterprofiler | https://bioconductor\.org/packages/release/bioc/html/clusterProfiler\.html    | no                | no             | yes           | no             |
-| Pathvisio       | https://www\.pathvisio\.org/                                                  | yes               | no             | no            | no             |
-| GeneGo/MetaCore | https://portal\.genego\.com/                                                  | no                | yes            | no            | yes            |
-| IPA             | https://www\.qiagenbioinformatics\.com/products/ingenuity\-pathway\-analysis/ | no                | yes            | no            | yes            |
+| [DAVID](https://david\.ncifcrf\.gov/)           |                                                   | yes               | no             | yes           | no             |
+| [PANTHER](http://pantherdb\.org/)         |                                                         | yes               | no             | no            | no             |
+| [WebGestalt]( http://www\.webgestalt\.org/)      |                                                  | yes               | no             | no            | no             |
+| [GSEA](http://software\.broadinstitute\.org/gsea/index\.jsp)            |                           | no                | yes            | yes           | no             |
+| [g:Profiler](https://biit\.cs\.ut\.ee/gprofiler/gost)      |                                        | yes               | no             | yes           | no             |
+| [Enrichr](https://amp\.pharm\.mssm\.edu/Enrichr/)         |                                         | yes               | no             | yes           | no             |
+| [Tools4miRs](https://tools4mirs\.org/software/target_functional_analysis/)      |                                                       | yes               | NA             | NA            | NA             |
+| [clusterprofiler](https://bioconductor\.org/packages/release/bioc/html/clusterProfiler\.html) |     | no                | no             | yes           | no             |
+| [Pathvisio](https://www\.pathvisio\.org/)       |                                                   | yes               | no             | no            | no             |
+| [GeneGo/MetaCore](https://portal\.genego\.com/) |                                                   | no                | yes            | no            | yes            |
+| [IPA](https://www\.qiagenbioinformatics\.com/products/ingenuity\-pathway\-analysis/)             |  | no                | yes            | no            | yes            |
 
 
