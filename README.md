@@ -21,7 +21,7 @@ Overall these analyses are known as **Pathway Analysis**. Although one could dis
 
 There is a huge variety of methods and tools for doing pathway analysis. [Khatri (2012)](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002375) is still a good reference to provide a good comparative overview. We refer the reader to this and similar papers and go straight to the list of recommended tools.
 
-# Approaches to pathway analysis 
+# Approaches to PwA
 
 Because we do not aim so much at being comprehensive as at being useful we begin considering three possible approaches that can be undertaken by a researcher when she is faced with the mission of *"doing a pathway analysis of my gene list"* 
 
@@ -48,12 +48,19 @@ If one wishes to do more complete or sophisticated analysis one can turn to a re
 
 Last but not least one can always use state of the art tools available from the [Bioconductor project](http://bioconductor.org). Bioconductor contains many options for doing similar or distinct analyses. In order to avoid getting lost in the myriad of options a good starting point is the [Clusterprofiler package](https://www.bioconductor.org/packages/release/bioc/vignettes/clusterProfiler/inst/doc/clusterProfiler.html) which not only allows to do a variety of analysis with a homogeneous interface, but which also has an excelent documentation.
 
-# Materials about pathway analysis
+# Useful materials
 
 People tend to ask more questions like *where can I find a tool to do pathway analysis?* than  *How can I learn how to do pathway analysis the right way?* 
 We are convinced that the right way to proceed is first answering the second question and next, the first one.
 
 With this aim in mind, we have compiled some materials that we have found on the web -including ours- that can provide a gentle introduction to this topic, easier to do than to define.
+
+## Courses and tutorials
+* [Bioinformatics Canada](www.bioinformatics.ca) teaches great bioinformatics courses on a yearly basis. Besides this, they make the materials of courses from previous years freely available on their web site. One of such courses is [Pathway and Network analysis of omics data]( https://bioinformatics.ca/workshops/pathway-and-network-analysis-of-omics-data/)  
+* [VIB Bioinformatics Core](https://www.bits.vib.be/) is another must-stop place when looking for training materials. [Here](https://wiki.bits.vib.be/index.php/Functional_annotation_and_enrichment_analysis) are some tutorials on enrichment analysis using a variety of tools.
+* A PLoS Computational Biology tutorial was presented at ISMB 2010: [Pathway Analysis of Expression Data: Deciphering Functional Building Blocks of Complex Diseases](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3102754/).
+
+* Materials from an old CNIO course on Functional Analysis (the web page is not available): http://bioinfo.cnio.es/files/training/Functional_Analysis_Course/ 
 
 ## References
 
@@ -65,13 +72,24 @@ Instead of trying to do an exhaustive list of papers we simply present a few pap
 * García-Campos, M. A., Espinal-Enríquez, J., & Hernández-Lemus, E. (2015). Pathway Analysis: State of the Art. Frontiers in Physiology, 6, 383. https://doi.org/10.3389/fphys.2015.00383
 * Reimand, J., Isserlin, R., Voisin, V., Kucera, M., Tannus-Lopes, C., Rostamianfar, A., … Bader, G. D. (2017). Pathway enrichment analysis of -omics data. BioRxiv, 232835. https://doi.org/10.1101/232835
 
-## Courses and tutorials
-* [Bioinformatics Canada](www.bioinformatics.ca) teaches great bioinformatics courses on a yearly basis. Besides this, they make the materials of courses from previous years freely available on their web site. One of such courses is [Pathway and Network analysis of omics data]( https://bioinformatics.ca/workshops/pathway-and-network-analysis-of-omics-data/)  
-* [VIB Bioinformatics Core](https://www.bits.vib.be/) is another must-stop place when looking for training materials. [Here](https://wiki.bits.vib.be/index.php/Functional_annotation_and_enrichment_analysis) are some tutorials on enrichment analysis using a variety of tools.
-* A PLoS Computational Biology tutorial was presented at ISMB 2010: [Pathway Analysis of Expression Data: Deciphering Functional Building Blocks of Complex Diseases](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3102754/).
-
-* Materials from an old CNIO course on Functional Analysis (the web page is not available): http://bioinfo.cnio.es/files/training/Functional_Analysis_Course/ 
 
 # Pathway Analysis Tools
+
+There are literally dozens, probably hundreds of Pathway Analysis Tools. The table below contains an opinionated list of a few popular tools that cover the spectra of tools types, such as commercial/non-commercial, web based/standalone/R based.
+Only one link escape from this classification: the link [https://tools4mirs.org/software/target_functional_analysis/](https://tools4mirs.org/software/target_functional_analysis/) points to a page which at its time points to functional analysis tools for microRNAs target genes.
+
+| **Tool Name**   | **URL**                                                                       | **Web interface** | **Standalone** | **R version** | **Commercial** |
+|-----------------|-------------------------------------------------------------------------------|-------------------|----------------|---------------|----------------|
+| DAVID           | https://david\.ncifcrf\.gov/                                                  | yes               | no             | yes           | no             |
+| PANTHER         | http://pantherdb\.org/                                                        | yes               | no             | no            | no             |
+| WebGestalt      | http://www\.webgestalt\.org/                                                  | yes               | no             | no            | no             |
+| GSEA            | http://software\.broadinstitute\.org/gsea/index\.jsp                          | no                | yes            | yes           | no             |
+| g:Profiler      | https://biit\.cs\.ut\.ee/gprofiler/gost                                       | yes               | no             | yes           | no             |
+| Enrichr         | https://amp\.pharm\.mssm\.edu/Enrichr/                                        | yes               | no             | yes           | no             |
+| Tools4miRs      | https://tools4mirs\.org/software/target_functional_analysis/                                                      | yes               | NA             | NA            | NA             |
+| clusterprofiler | https://bioconductor\.org/packages/release/bioc/html/clusterProfiler\.html    | no                | no             | yes           | no             |
+| Pathvisio       | https://www\.pathvisio\.org/                                                  | yes               | no             | no            | no             |
+| GeneGo/MetaCore | https://portal\.genego\.com/                                                  | no                | yes            | no            | yes            |
+| IPA             | https://www\.qiagenbioinformatics\.com/products/ingenuity\-pathway\-analysis/ | no                | yes            | no            | yes            |
 
 
