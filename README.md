@@ -56,7 +56,7 @@ We are convinced that the right way to proceed is first answering the second que
 With this aim in mind, we have compiled some materials that we have found on the web -including ours- that can provide a gentle introduction to this topic, easier to do than to define.
 
 ## Courses and tutorials
-* [An Introduction to Pathway Analysis](https://github.com/uebvhir/Pathway_Analysis-Guidelines/raw/master/Intro2PathwayAnalysis-LONG.pdf) A talk organized by the UEB at VHIR, to introduce basic concepts and free tools, after the Ingenuity Pathways software license was discontinued.
+* [An Introduction to Pathway Analysis](https://github.com/uebvhir/Pathway_Analysis-Guidelines/raw/master/Intro2PathwayAnalysis-LONG.pdf). A talk organized by the UEB at VHIR, to introduce basic concepts and free tools, after the Ingenuity Pathways software license was discontinued.
 * [Bioinformatics Canada](www.bioinformatics.ca) teaches great bioinformatics courses on a yearly basis. Besides this, they make the materials of courses from previous years freely available on their web site. One of such courses is [Pathway and Network analysis of omics data]( https://bioinformatics.ca/workshops/pathway-and-network-analysis-of-omics-data/)  
 * [VIB Bioinformatics Core](https://www.bits.vib.be/) is another must-stop place when looking for training materials. [Here](https://wiki.bits.vib.be/index.php/Functional_annotation_and_enrichment_analysis) are some tutorials on enrichment analysis using a variety of tools.
 * A PLoS Computational Biology tutorial was presented at ISMB 2010: [Pathway Analysis of Expression Data: Deciphering Functional Building Blocks of Complex Diseases](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3102754/).
