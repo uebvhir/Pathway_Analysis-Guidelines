@@ -68,12 +68,10 @@ With this aim in mind, we have compiled some materials that we have found on the
 ## Bioconductor-based courses and tutorials
 
 * Teaching materials about _Performing functional analysis on gene lists with R-based tools_ from the Harvard Chan Bioinformatics Core
-  - [Using `clusterprofiler`](https://hbctraining.github.io/DGE_workshop_salmon/lessons/functional_analysis_2019.html)
+  - [Using clusterprofiler](https://hbctraining.github.io/DGE_workshop_salmon/lessons/functional_analysis_2019.html)
   - [Using other tools](https://hbctraining.github.io/DGE_workshop/lessons/functional_analysis_other_methods.html)
 * [Materials from a RNA-seq tutorial](https://bioconnector.github.io/workshops/r-rnaseq-airway.html)
-* [A workflow on for GSEA with `clusterProfiler`, from NYU Core facility](https://learn.gencore.bio.nyu.edu/rna-seq-analysis/gene-set-enrichment-analysis/)
-
-
+* [A workflow on for GSEA with clusterProfiler, from NYU Core facility](https://learn.gencore.bio.nyu.edu/rna-seq-analysis/gene-set-enrichment-analysis/)
 
 ## References
 
