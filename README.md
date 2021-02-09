@@ -26,6 +26,7 @@ Because we do not aim so much at being comprehensive as at being useful we begin
 As the page progresses we expect to add more examples, more tools, and more explanations.
 
 These three approaches described below differ in sophistication and in difficulty. 
+
 1. The first and simplest one only requires providing a list of genes and going through some web pages that do some variation of *enrichment analysis*. 
 2. A second one is a protocol described in a recent Nature paper that requires using a variety of programs to be completed. While "intended for biologists" it requires at least some time to learn what each tool does, how to set the parameters and how to interpret the results.
 3. The last one relies on [Bioconductor](http://bioconductor.org) and R, and as such, it assumes familiarity with the use of R and [Bioconductor](http://bioconductor.org) for bioinformatic analysis.
@@ -33,6 +34,7 @@ These three approaches described below differ in sophistication and in difficult
 ## Use a single online tool
 
 The simplest way to do pathway analysis consists of using one of the tools embedded in popular pathway databases such as [The Gene Ontology](www.geneontology.org) and [Reactome](www.reactome.org). Each website contains some tool to do pathway analysis.
+
   - The Gene Ontology ([www.geneontology.org](www.geneontology.org)) provides a form for doing *Gene Enrichment Analysis* in its front page. Just paste a list of identifiers and press "launch". Simple help is provided by pressing a "?" symbol.
   - The Reactome web site ([www.reactome.org]()) has an option to do data analysis ("Analyze Data") which allow doing a step by step enrichment analysis. Besides the examples contained in the site, one can find a short online tutorial on using this tool in the EMBL web site: [Reactome: Tools for analysis of biological pathways](https://www.ebi.ac.uk/training/online/course/reactome-tools-analysis-biological-pathways).
 
