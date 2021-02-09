@@ -50,6 +50,7 @@ Last but not least one can always use state of the art tools available from the 
 
 In order to avoid getting lost in the myriad of options a good starting point is the [Clusterprofiler package](https://www.bioconductor.org/packages/release/bioc/vignettes/clusterProfiler/inst/doc/clusterProfiler.html) which not only allows to do a variety of analysis with a homogeneous interface, but which also has an [excelent and extensive documentation](https://yulab-smu.github.io/clusterProfiler-book/).
 
+
 # Useful materials
 
 People tend to ask more questions like *where can I find a tool to do pathway analysis?* than  *How can I learn how to do pathway analysis the right way?* 
@@ -62,8 +63,20 @@ With this aim in mind, we have compiled some materials that we have found on the
 * [Bioinformatics Canada](www.bioinformatics.ca) teaches great bioinformatics courses on a yearly basis. Besides this, they make the materials of courses from previous years freely available on their web site. One of such courses is [Pathway and Network analysis of omics data]( https://bioinformatics.ca/workshops/pathway-and-network-analysis-of-omics-data/)  
 * [VIB Bioinformatics Core](https://www.bits.vib.be/) is another must-stop place when looking for training materials. [Here](https://wiki.bits.vib.be/index.php/Functional_annotation_and_enrichment_analysis) are some tutorials on enrichment analysis using a variety of tools.
 * A PLoS Computational Biology tutorial was presented at ISMB 2010: [Pathway Analysis of Expression Data: Deciphering Functional Building Blocks of Complex Diseases](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3102754/).
-
 * [Materials from an old CNIO course on Functional Analysis](http://bioinfo.cnio.es/files/training/Functional_Analysis_Course/) (the web page is not available): 
+
+## Bioconductor-based courses and tutorials
+
+* Teaching materials about _Performing functional analysis on gene lists with R-based tools_ from the Harvard Chan Bioinformatics Core
+
+  - [Using `clusterprofiler`](https://hbctraining.github.io/DGE_workshop_salmon/lessons/functional_analysis_2019.html)
+  - [Using other tools](https://hbctraining.github.io/DGE_workshop/lessons/functional_analysis_other_methods.html)
+* [Materials from a RNA-seq tutorial](https://bioconnector.github.io/workshops/r-rnaseq-airway.html)
+* [A workflow on for GSEA with `clusterProfiler`, from NYU Core facility](https://learn.gencore.bio.nyu.edu/rna-seq-analysis/gene-set-enrichment-analysis/)
+* 
+
+https://www.bioconductor.org/packages/devel/workflows/vignettes/rnaseqGene/inst/doc/rnaseqGene.html
+
 
 ## References
 
